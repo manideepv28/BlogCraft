@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 11% 98%; /* #F5F7FA */
+  --foreground: 210 11% 15%; /* #1A1A1A */
+  --muted: 210 6% 46%; /* #64748B */
+  --muted-foreground: 210 6% 64%; /* #94A3B8 */
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 11% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 11% 15%;
+  --border: 210 13% 91%; /* #E2E8F0 */
+  --input: 210 13% 91%;
+  --primary: 232 96% 63%; /* #6366F1 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 13% 97%; /* #F1F5F9 */
+  --secondary-foreground: 210 11% 15%;
+  --accent: 232 96% 63%; /* #6366F1 */
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%; /* #EF4444 */
+  --destructive-foreground: 0 0% 98%;
+  --ring: 232 96% 63%;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 210 11% 4%; /* #0F172A */
+  --foreground: 0 0% 98%;
+  --muted: 210 6% 46%;
+  --muted-foreground: 210 6% 64%;
+  --popover: 210 11% 4%;
+  --popover-foreground: 0 0% 98%;
+  --card: 210 11% 4%;
+  --card-foreground: 0 0% 98%;
+  --border: 210 6% 16%; /* #334155 */
+  --input: 210 6% 16%;
+  --primary: 232 96% 63%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 6% 12%; /* #1E293B */
+  --secondary-foreground: 0 0% 98%;
+  --accent: 232 96% 63%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 232 96% 63%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-foreground;
+  }
+  
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-foreground font-semibold;
+  }
+  
+  .prose p {
+    @apply text-muted-foreground leading-relaxed;
+  }
+  
+  .prose strong {
+    @apply text-foreground font-semibold;
+  }
+  
+  .prose em {
+    @apply text-foreground italic;
+  }
+  
+  .prose ul, .prose ol {
+    @apply text-muted-foreground;
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-primary pl-4 text-muted-foreground italic;
+  }
+}
+
+/* Rich text editor styles */
+.rich-editor {
+  @apply min-h-[24rem] p-4 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent;
+}
+
+.rich-editor:empty:before {
+  content: attr(data-placeholder);
+  @apply text-muted-foreground;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground;
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+/* Button variants */
+.btn-primary {
+  @apply bg-primary text-primary-foreground hover:bg-primary/90 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors;
+}
+
+.btn-ghost {
+  @apply text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors;
+}

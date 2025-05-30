@@ -1,0 +1,84 @@
+The above error occurred in the <SelectItem> component:
+
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:851:7
+    at _c11 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/select.tsx:208:13)
+    at div
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=7fb6e64d:42:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:39:15
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:762:13
+    at div
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:39:15
+    at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:305:58
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=7fb6e64d:42:13
+    at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:403:22
+    at SelectPortal
+    at _c7 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/select.tsx:123:12)
+    at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+    at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+    at CollectionProvider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:29:13)
+    at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+    at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+    at Popper (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-D3UZGXXA.js?v=7fb6e64d:1953:11)
+    at Select (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:93:5)
+    at div
+    at div
+    at _c9 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/card.tsx:114:12)
+    at div
+    at _c (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/card.tsx:20:11)
+    at div
+    at section
+    at div
+    at Home (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/pages/home.tsx:31:27)
+    at Route (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=58d46461:323:16)
+    at Switch…
+
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:851:7
+at _c11 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/select.tsx:208:13)
+at div
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=7fb6e64d:42:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:39:15
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:762:13
+at div
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:39:15
+at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:305:58
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:79:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-LXTJ4TFU.js?v=7fb6e64d:56:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PALV7G7K.js?v=7fb6e64d:42:13
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:403:22
+at SelectPortal
+at _c7 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/select.tsx:123:12)
+at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+at CollectionProvider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-TKJCLCOY.js?v=7fb6e64d:29:13)
+at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+at Provider (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-7CVTARJM.js?v=7fb6e64d:58:15)
+at Popper (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-D3UZGXXA.js?v=7fb6e64d:1953:11)
+at Select (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=5c126626:93:5)
+at div
+at div
+at _c9 (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/card.tsx:114:12)
+at div
+at _c (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/components/ui/card.tsx:20:11)
+at div
+at section
+at div
+at Home (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/src/pages/home.tsx:31:27)
+at Route (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=58d46461:323:16)
+at Switch…
+at t.value (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://403b5ecf-ab9e-434f-a502-464b8397f87a-00-3dz7jdilyqtxb.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
